@@ -1,11 +1,15 @@
 var main = function() {
 
-//function for running the slide show automatically
-setInterval(changePage, 5000);
-	function changePage(){
-	$(".arrow-next").trigger("click");
-
-}
+  $('.buttonanimator').mouseenter(function() {
+       	   $(this).animate({
+           marginTop: '+=10px'
+       });
+  });
+  $('.buttonanimator').mouseleave(function() {
+       $(this).animate({
+           marginTop: '-=10px'
+       }); 
+  });
   
   $('.arrow-next').click(function() {
     var currentSlide = $('.active-slide');
