@@ -10,7 +10,10 @@ navbar-nav {
     border: 0px;
     margin: 0px;
     padding: 0px;
-    
+}
+.navbar-brand{
+    width: 150px;
+    height: 150px;
 }
 .nav{
     width: 150px;
@@ -18,30 +21,181 @@ navbar-nav {
     border: 0px;
     padding: 0px;
 }
-.navbar-fixed-top{
-    display: inline;
+
+#navcontainer{ 
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    top: 0px;
     height: 150px;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-}
-.navAndLogo {
-    height: 150px;
-    width: 60%;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-}
-.navcontainer{
-    
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
 }
 .logo{
+    position: static;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
     border: 0px;
     padding: 0px;
-    top: 15px;
+    top: 0px;
+}
+.navbar-header{
+    top: 0px;
+}
+.navAndLogo{
+    position: absolute;
+}
+.logoImage:hover{
+    opacity:1.0;
+    filter: aplpha(opacity=100);
+}
+.logoImage{
+    opacity:0.65;
+    filter: aplpha(opacity=65);
+}
+/*text*/
+
+a:link {
+text-decoration: none;
+color: #ffffff;
+}
+a:visited {
+text-decoration: none;
+color: #ffffff;
+}
+a:hover{
+color: #808080;
+}
+a: active {
+text-decoration: none;
+color: #808080;
+}
+/* Carousel */
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 525px;
+  border-bottom: 0px
+}
+
+.slide {
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slide-copy h1 {
+  color: #ffffff;  
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin-top: 105px;
+  margin-bottom: 0px;
+  margin-left: 231px;
+}
+
+.slide-copy h2 {
+  color: #ffffff;
+  text-shadow: #ffffff;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin: 5px;
+  margin-left: 231px;
+}
+
+.slide-copy p {
+  color: #ffffff;
+  text-shadow: #ffffff;
+  
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  
+  margin-bottom: 15px;
+  margin-top: 16px;
+  margin-left: 231px;
+}
+.slide-1{
+background-image: url('#');
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.slide-2{
+background-image: url('#');
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.slide-3{
+background-image: url('#');
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* Slide feature */
+
+.slider-nav {
+  text-align: center;
+  margin-top: 0px;
+  clear: both;
+  background-color: transparent;
+  height: 35px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
 }
