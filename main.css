@@ -1,0 +1,11 @@
+body {
+    background-image: url("EastCoastTrailcopy.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+/*navbar*/
+navbar-nav {
+    position: absolute;
+    text-decoration: none;
+}
