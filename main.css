@@ -6,20 +6,43 @@ body {
 }
 /*navbar and logo*/
 navbar-nav {
-    position: absolute;
     text-decoration: none;
     border: 0px;
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
+    width: 0px;
+}
+.nav{
+    width: 150px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
 .navbar-fixed-top{
-    display: block;
-    width: 60%;
+    display: inline;
+    width: 90%;
     height: 150px;
-    
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
-
+.navAndLogo {
+    height: 150px;
+    width: 60%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.navcontainer{
+    width:150px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
 .logo{
     float:right;
     position: absolute;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
