@@ -4,8 +4,22 @@ body {
     background-repeat: no-repeat;
     background-position: right bottom;
 }
-/*navbar*/
+/*navbar and logo*/
 navbar-nav {
     position: absolute;
     text-decoration: none;
+    border: 0px;
+    margin: 0px;
+    padding: 5px;
+}
+.navbar-fixed-top{
+    display: block;
+    width: 60%;
+    height: 150px;
+    
+}
+
+.logo{
+    float:right;
+    position: absolute;
 }
