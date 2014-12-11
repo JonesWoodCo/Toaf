@@ -46,29 +46,37 @@ navbar-nav {
     position: absolute;
 }
 .logoImage:hover{
-    opacity:1.0;
-    filter: aplpha(opacity=100);
+    opacity:1.0;  
 }
 .logoImage{
     opacity:0.65;
-    filter: aplpha(opacity=65);
 }
 /*text*/
 
 a:link {
 text-decoration: none;
 color: #ffffff;
+font-family:"Lobster";
 }
 a:visited {
 text-decoration: none;
 color: #ffffff;
+font-family: "Lobster";
 }
 a:hover{
 color: #808080;
+font-family: Lobster;
 }
-a: active {
+a:active {
 text-decoration: none;
 color: #808080;
+font-family: Lobster;
+}
+li{
+    font-family: "Lobster";
+}
+p{
+    font-family: "Lobster";
 }
 /*social media buttons/animations*/
 .buttonanimator{
@@ -83,9 +91,7 @@ color: #808080;
     margin-right: 0px;    
 }
 .socialMediaNav{
-    display: inline; 
-    height: ;
-    width: ;
+    display: inline; /*why does adding this float in interfere with animations?????*/
 }
 /* Carousel */
 
@@ -118,14 +124,13 @@ color: #808080;
   font-weight: 400;
   
   font-size: 40px;
-  margin-top: 50px;
+  margin-top: 105px;
   margin-bottom: 0px;
   margin-left: 231px;
 }
 
 .slide-copy h2 {
   color: #ffffff;
-  text-shadow: #ffffff;
   
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -137,7 +142,7 @@ color: #808080;
 
 .slide-copy p {
   color: #ffffff;
-  text-shadow: #ffffff;
+
   
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.15em;
@@ -215,24 +220,4 @@ height: 100%;
 
 .slider-dots li.active-dot {
   color: #363636;
-}
-/*slide content*/
-.workTiles {
-  list-style: none;
-  padding-bottom: 9px;
-  padding-left: 231px;
-  padding-top: 9px;
-  height: 250px;
-  width: 70%
-}
-
-.workTiles li {
-  float: left;
-  margin-bottom: 5px;
-  margin-right: 5px;
-}
-
-.workTiles img {
-  
-  height: 160px;
 }
