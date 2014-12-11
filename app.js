@@ -1,13 +1,19 @@
 var main = function() {
 
+$('.dropdown-toggle').click(function() {
+    $('.dropdown-menu').toggle();
+  });
+  
   $('.buttonanimator').mouseenter(function() {
        	   $(this).animate({
-           marginTop: '+=10px'
+           marginRight: '+=100px'
+		   
        });
   });
   $('.buttonanimator').mouseleave(function() {
        $(this).animate({
-           marginTop: '-=10px'
+           marginRight: '-=100px'
+		   
        }); 
   });
   

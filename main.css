@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-position: right bottom;
 	margin: 0px;
+	overflow: hidden;
 }
 /*navbar and logo*/
 navbar-nav {
@@ -95,7 +96,7 @@ color: #808080;
 .buttonanimator{
 	opacity: 0.65;
     display: inline;
-    height: 23px;
+    height: 50px;
     width: 23px;
     border: 0px;
     padding:0px;
@@ -109,12 +110,12 @@ color: #808080;
 position: absolute;
 display: block;
 top: 0px;
-right: 0px;
+right: -100px;
 height: 100%;
-width: 23px;
+width: 150px;
 z-index: 998;
 }
-.bottonanimator img:hover{
+.sMButtons img:hover{
 	opacity: 1.0;
 }
 /* Carousel */
