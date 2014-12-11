@@ -56,28 +56,23 @@ navbar-nav {
 a:link {
 text-decoration: none;
 color: #ffffff;
-font-family:"Lobster";
+
 }
 a:visited {
 text-decoration: none;
 color: #ffffff;
-font-family: "Lobster";
+
 }
 a:hover{
 color: #808080;
-font-family: Lobster;
+
 }
 a:active {
 text-decoration: none;
 color: #808080;
-font-family: Lobster;
+
 }
-li{
-    font-family: "Lobster";
-}
-p{
-    font-family: "Lobster";
-}
+
 /*social media buttons/animations*/
 .buttonanimator{
     display: inline;
@@ -124,9 +119,9 @@ p{
   font-weight: 400;
   
   font-size: 40px;
-  margin-top: 105px;
+  margin-top: 50px;
   margin-bottom: 0px;
-  margin-left: 231px;
+  /*margin-left: 231px;*/
 }
 
 .slide-copy h2 {
@@ -137,7 +132,7 @@ p{
   
   font-size: 40px;
   margin: 5px;
-  margin-left: 231px;
+  margin-left: 0px;
 }
 
 .slide-copy p {
@@ -150,7 +145,7 @@ p{
   
   margin-bottom: 15px;
   margin-top: 16px;
-  margin-left: 231px;
+  margin-left: 0px;
 }
 .slide-1{
 background-image: url('#');
@@ -158,8 +153,11 @@ background-size: cover;
 position: absolute;
 top: 0;
 left: 0;
-width: 100%;
+width: 70%;
 height: 100%;
+margin-left: 231px;
+margin-right: 231px;
+padding: 10px;
 }
 .slide-2{
 background-image: url('#');
@@ -167,8 +165,11 @@ background-size: cover;
 position: absolute;
 top: 0;
 left: 0;
-width: 100%;
+width: 70%;
 height: 100%;
+margin-left: 231px;
+margin-right: 231px;
+padding: 10px;
 }
 .slide-3{
 background-image: url('#');
@@ -176,10 +177,40 @@ background-size: cover;
 position: absolute;
 top: 0;
 left: 0;
-width: 100%;
+width: 70%;
 height: 100%;
+margin-left: 231px;
+margin-right: 231px;
+padding: 10px;
 }
-
+.slide-4{
+background-image: url('#');
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 70%;
+height: 100%;
+margin-left: 231px;
+margin-right: 231px;
+padding: 10px;
+}
+.workTiles{
+/*margin-left: 231px;*/
+padding: 0px;
+}
+.workTiles li{
+display: inline;
+width: 220px;
+pading: 0px;
+}
+.slide-copy img{
+	width: 200px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	padding: 0px;
+	border: 0px;
+}
 /* Slide feature */
 
 .slider-nav {
