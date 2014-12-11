@@ -46,29 +46,47 @@ navbar-nav {
     position: absolute;
 }
 .logoImage:hover{
-    opacity:1.0;
-    filter: aplpha(opacity=100);
+    opacity:1.0;  
 }
 .logoImage{
     opacity:0.65;
-    filter: aplpha(opacity=65);
 }
 /*text*/
 
 a:link {
 text-decoration: none;
 color: #ffffff;
+
 }
 a:visited {
 text-decoration: none;
 color: #ffffff;
+
 }
 a:hover{
 color: #808080;
+
 }
-a: active {
+a:active {
 text-decoration: none;
 color: #808080;
+
+}
+
+/*social media buttons/animations*/
+.buttonanimator{
+    display: inline;
+    height: 23px;
+    width: 23px;
+    border: 0px;
+    padding:0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;    
+}
+.socialMediaNav{
+    display: inline; /*why does adding this float in interfere with animations?????*/
 }
 /* Carousel */
 
@@ -101,26 +119,25 @@ color: #808080;
   font-weight: 400;
   
   font-size: 40px;
-  margin-top: 105px;
+  margin-top: 50px;
   margin-bottom: 0px;
-  margin-left: 231px;
+  /*margin-left: 231px;*/
 }
 
 .slide-copy h2 {
   color: #ffffff;
-  text-shadow: #ffffff;
   
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   
   font-size: 40px;
   margin: 5px;
-  margin-left: 231px;
+  margin-left: 0px;
 }
 
 .slide-copy p {
   color: #ffffff;
-  text-shadow: #ffffff;
+
   
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.15em;
@@ -128,7 +145,7 @@ color: #808080;
   
   margin-bottom: 15px;
   margin-top: 16px;
-  margin-left: 231px;
+  margin-left: 0px;
 }
 .slide-1{
 background-image: url('#');
@@ -136,8 +153,11 @@ background-size: cover;
 position: absolute;
 top: 0;
 left: 0;
-width: 100%;
+width: 70%;
 height: 100%;
+margin-left: 231px;
+margin-right: 231px;
+padding: 10px;
 }
 .slide-2{
 background-image: url('#');
@@ -145,8 +165,11 @@ background-size: cover;
 position: absolute;
 top: 0;
 left: 0;
-width: 100%;
+width: 70%;
 height: 100%;
+margin-left: 231px;
+margin-right: 231px;
+padding: 10px;
 }
 .slide-3{
 background-image: url('#');
@@ -154,10 +177,40 @@ background-size: cover;
 position: absolute;
 top: 0;
 left: 0;
-width: 100%;
+width: 70%;
 height: 100%;
+margin-left: 231px;
+margin-right: 231px;
+padding: 10px;
 }
-
+.slide-4{
+background-image: url('#');
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 70%;
+height: 100%;
+margin-left: 231px;
+margin-right: 231px;
+padding: 10px;
+}
+.workTiles{
+/*margin-left: 231px;*/
+padding: 0px;
+}
+.workTiles li{
+display: inline;
+width: 220px;
+pading: 0px;
+}
+.slide-copy img{
+	width: 200px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	padding: 0px;
+	border: 0px;
+}
 /* Slide feature */
 
 .slider-nav {

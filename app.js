@@ -1,11 +1,15 @@
 var main = function() {
 
-//function for running the slide show automatically
-setInterval(changePage, 5000);
-	function changePage(){
-	$(".arrow-next").trigger("click");
-
-}
+  $('.buttonanimator').mouseenter(function() {
+       	   $(this).animate({
+           marginTop: '+=10px'
+       });
+  });
+  $('.buttonanimator').mouseleave(function() {
+       $(this).animate({
+           marginTop: '-=10px'
+       }); 
+  });
   
   $('.arrow-next').click(function() {
     var currentSlide = $('.active-slide');
@@ -19,8 +23,8 @@ setInterval(changePage, 5000);
       nextDot = $('.dot').first();
     }
     
-    currentSlide.fadeOut(700).removeClass('active-slide');
-    nextSlide.fadeIn(700).addClass('active-slide');
+    currentSlide.fadeOut(100).removeClass('active-slide');
+    nextSlide.fadeIn(100).addClass('active-slide');
 
     currentDot.removeClass('active-dot');
     nextDot.addClass('active-dot');
