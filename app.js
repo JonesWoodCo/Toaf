@@ -4,12 +4,12 @@ $('.dropdown-toggle').click(function() {
     $('.dropdown-menu').toggle();
   });
   
-  $('.buttonanimator').mouseenter(function() {
+  $('.socialSliders').mouseenter(function() {
        	   $(this).animate({
            marginRight: '+=100px'
        });
   });
-  $('.buttonanimator').mouseleave(function() {
+  $('.socialSliders').mouseleave(function() {
        $(this).animate({
            marginRight: '-=100px'
        }); 

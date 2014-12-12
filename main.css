@@ -1,10 +1,10 @@
 body {
-    background-image: url("EastCoastTrailcopy.jpg");
+    background-image: url("http://static.squarespace.com/static/521331b5e4b09a53f34a4f04/521340bbe4b01a5565db99a8/52145338e4b01f4a9dc369c8/1377063739942/EastCoast-1.jpg?format=1500w");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: right bottom;
-	margin: 0px;
-	overflow: hidden;
+    background-position: top;
+    margin: 0px;
+    overflow: hidden;
 }
 /*navbar and logo*/
 navbar-nav {
@@ -14,8 +14,8 @@ navbar-nav {
     padding: 0px;
 }
 .navbar-brand{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 .nav{
     width: 150px;
@@ -24,13 +24,13 @@ navbar-nav {
     padding: 0px;
 }
 .containerForAllTopThings{
-width: 100%;
-top: 5px;
-height: 150px;
-position: absolute;
-display: block;
-margin-left: auto;
-margin-right: auto;
+    width: 100%;
+    top: 5px;
+    height: 250px;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #navcontainer{ 
     margin: 0px;
@@ -43,65 +43,65 @@ margin-right: auto;
     position: static;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 600px;
+    margin-right: 600px;
     border: 0px;
     padding: 0px;
     top: 0px;
-	z-index: 999;
+    z-index: 999;
 }
 .navbar-header{
     top: 0px;
-	width: 95%;
-	float: left;
+    width: 95%;
+    float: left;
 	
 }
 .dropdown-menu{
-display: none;
+    display: none;
 }
 .navAndLogo{
     position: absolute;
-	margin-left: 15px;
+    margin-left: 15px;
 }
 li {
-list-style: none;
+    list-style: none;
 }
 .logoImage:hover{
     opacity:1.0;  
 }
 .logoImage{
-    opacity:0.65;
-	height: 250px;
-	length: 250px;
+    /*opacity:0.65;*/
+    height: 250px;
+    width: 250px;
 }
 .menuButtonImage {
-opacity: 0.65;
+    /*opacity: 0.65;*/
 }
 /*text*/
 
 a:link {
-text-decoration: none;
-color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
 
 }
 a:visited {
-text-decoration: none;
-color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
 
 }
 a:hover{
-color: #808080;
+    color: #808080;
 
 }
 a:active {
-text-decoration: none;
-color: #808080;
+    text-decoration: none;
+    color: #808080;
 
 }
 
 /*social media buttons/animations*/
 .buttonanimator{
-	opacity: 0.65;
+    /*opacity: 0.65;*/
     display: inline;
     height: 50px;
     width: 23px;
@@ -114,16 +114,16 @@ color: #808080;
 	
 }
 .sMButtons {
-position: absolute;
-display: block;
-top: 0px;
-right: -100px;
-height: 100%;
-width: 150px;
-z-index: 998;
+    position: absolute;
+    display: block;
+    top: 0px;
+    right: -100px;
+    height: 100%;
+    width: 150px;
+    z-index: 998;
 }
 .sMButtons img:hover{
-	opacity: 1.0;
+    /*opacity: 1.0;*/
 }
 /* Carousel */
 
@@ -186,73 +186,75 @@ z-index: 998;
   margin-left: 0px;
 }
 .slide-1{
-background-image: url('#');
-background-size: cover;
-left: 0;
-width: 70%;
-height: 100%;
-margin-left: 231px;
-margin-right: 231px;
-padding: 0px;
+    background-image: url('#');
+    background-size: cover;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 0px;
+
 }
 .slide-2{
-background-image: url('#');
-background-size: cover;
-top: 0;
-left: 0;
-width: 70%;
-height: 100%;
-margin-left: 231px;
-margin-right: 231px;
-padding: 0px;
+    background-image: url('#');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 0px;
 }
 .slide-3{
-background-image: url('#');
-background-size: cover;
-top: 0;
-left: 0;
-width: 70%;
-height: 100%;
-margin-left: 231px;
-margin-right: 231px;
-padding: 10px;
+    background-image: url('#');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 10px;
 }
 .slide-4{
-background-image: url('#');
-background-size: cover;
-top: 0;
-left: 0;
-width: 70%;
-height: 100%;
-margin-left: 231px;
-margin-right: 231px;
-padding: 10px;
+    background-image: url('#');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 10px;
 }
 .workTiles{
-/*margin-left: 231px;*/
-padding: 0px;
+    /*margin-left: 231px;*/
+    padding: 0px;
 }
 .workTiles li{
-display: inline;
-width: 220px;
-pading: 0px;
+    display: inline;
+    width: 220px;
+    padding: 0px;
 }
 .slide-copy img{
-	width: 200px;
-	margin-right: 25px;
-	margin-bottom: 25px;
-	padding: 0px;
-	border: 0px;
+    width: 200px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 0px;
+    border: 0px;
 }
 /* Slide feature */
 
 .slider-nav {
-  text-align: center;
-  margin-top: 0px;
-  background-color: transparent;
-  height: 75px;
-  position: absolute;
-  float: bottom-right;
+    text-align: center;
+    margin-top: 0px;
+    background-color: transparent;
+    height: 75px;
+    position: absolute;
+    margin-left: 600px;
+    margin-right: 600px;
 }
 
 .arrow-prev {
