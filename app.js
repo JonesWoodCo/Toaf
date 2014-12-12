@@ -7,13 +7,11 @@ $('.dropdown-toggle').click(function() {
   $('.buttonanimator').mouseenter(function() {
        	   $(this).animate({
            marginRight: '+=100px'
-		   
        });
   });
   $('.buttonanimator').mouseleave(function() {
        $(this).animate({
            marginRight: '-=100px'
-		   
        }); 
   });
   
