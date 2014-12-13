@@ -1,10 +1,10 @@
 body {
-    background-image: url("http://static.squarespace.com/static/521331b5e4b09a53f34a4f04/521340bbe4b01a5565db99a8/52145338e4b01f4a9dc369c8/1377063739942/EastCoast-1.jpg?format=1500w");
+    background-image: url("EastCoastTrailcopy.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: bottom right;
     margin: 0px;
-    overflow: hidden;
+    overflow/*-x*/: hidden;
 }
 /*navbar and logo*/
 navbar-nav {
@@ -13,6 +13,8 @@ navbar-nav {
     margin: 0px;
     padding: 0px;
 }
+
+
 .navbar-brand{
     width: 250px;
     height: 250px;
@@ -22,15 +24,6 @@ navbar-nav {
     margin: 0px;
     border: 0px;
     padding: 0px;
-}
-.containerForAllTopThings{
-    width: 100%;
-    top: 5px;
-    height: 250px;
-    position: absolute;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 #navcontainer{ 
     margin: 0px;
@@ -50,33 +43,25 @@ navbar-nav {
     top: 0px;
     z-index: 999;
 }
-.navbar-header{
-    top: 0px;
-    width: 95%;
-    float: left;
-	
-}
-.dropdown-menu{
-    display: none;
-}
+
+
 .navAndLogo{
-    position: absolute;
-    margin-left: 15px;
+    /*position: absolute;*/
+    height: 100%;
+    width: 100%
 }
 li {
     list-style: none;
 }
 .logoImage:hover{
-    opacity:1.0;  
+    /*opacity:1.0;  */
 }
 .logoImage{
     /*opacity:0.65;*/
-    height: 250px;
-    width: 250px;
+    height: 275px;
+    width: 275px;
 }
-.menuButtonImage {
-    /*opacity: 0.65;*/
-}
+
 /*text*/
 
 a:link {
@@ -113,24 +98,16 @@ a:active {
     margin-right: 0px; 
 	
 }
-.sMButtons {
-    position: absolute;
-    display: block;
-    top: 0px;
-    right: -100px;
-    height: 100%;
-    width: 150px;
-    z-index: 998;
+.socialSliders{
+    height: 25px;
 }
-.sMButtons img:hover{
-    /*opacity: 1.0;*/
-}
+
 /* Carousel */
 
 .slider {
   /*position: relative;*/
   width: 100%;
-  height: 350px;
+  height: 475px;
   margin-top: 275px;
 }
 
@@ -246,45 +223,54 @@ a:active {
     border: 0px;
 }
 /* Slide feature */
-
+.copyright{
+    display: inline;
+}
 .slider-nav {
+    position: absolute;
+    height: 25px;
     text-align: center;
     margin-top: 0px;
     background-color: transparent;
-    height: 75px;
-    position: absolute;
-    margin-left: 600px;
-    margin-right: 600px;
+
 }
 
 .arrow-prev {
-  margin-right: 45px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 9px;
+    display: inline-block;
+    margin-right: 0px;
+    height: 23px;
+    float: left;
+
 }
 
 .arrow-next {
-  margin-left: 45px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 9px;
+    display: inline-block;
+    margin-left: 10px;
+    height: 23px;
+    float: right;
 }
 
 .slider-dots {
-  list-style: none;
-  display: inline-block;
-  padding-left: 0;
-  margin-bottom: 0;
+   
+    float: right;
+    vertical-align: middle;
+    list-style: none;
+    display: inline;
+    padding-left: 0px;
+    margin: 0px;
 }
-
 .slider-dots li {
-  color: #bbbcbc;
+  color: #ffffff;
   display: inline;
   font-size: 30px;
-  margin-right: 5px;
+  padding-right: 5px;
+  bottom: 3px;
 }
 
 .slider-dots li.active-dot {
   color: #363636;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }

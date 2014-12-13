@@ -1,17 +1,13 @@
 var main = function() {
 
-$('.dropdown-toggle').click(function() {
-    $('.dropdown-menu').toggle();
-  });
-  
   $('.socialSliders').mouseenter(function() {
        	   $(this).animate({
-           marginRight: '+=100px'
+           marginRight: '+=75px'
        });
   });
   $('.socialSliders').mouseleave(function() {
        $(this).animate({
-           marginRight: '-=100px'
+           marginRight: '-=75px'
        }); 
   });
   
