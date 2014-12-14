@@ -1,8 +1,10 @@
 body {
-    background-image: url("EastCoastTrailcopy.jpg");
+    background-image: url("testBackground2.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: bottom;
+    margin: 0px;
+    overflow/*-x*/: hidden;
 }
 /*navbar and logo*/
 navbar-nav {
@@ -11,9 +13,11 @@ navbar-nav {
     margin: 0px;
     padding: 0px;
 }
+
+
 .navbar-brand{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 .nav{
     width: 150px;
@@ -21,7 +25,6 @@ navbar-nav {
     border: 0px;
     padding: 0px;
 }
-
 #navcontainer{ 
     margin: 0px;
     border: 0px;
@@ -29,72 +32,75 @@ navbar-nav {
     top: 0px;
     height: 150px;
 }
-.logo{
-    position: static;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 0px;
-    padding: 0px;
-    top: 0px;
-}
-.navbar-header{
-    top: 0px;
-}
+
+
 .navAndLogo{
-    position: absolute;
+    /*position: absolute;*/
+    height: 100%;
+    width: 100%
 }
-.logoImage:hover{
-    opacity:1.0;  
+li {
+    list-style: none;
 }
-.logoImage{
-    opacity:0.65;
+.elLogo: hover{
+    background-image: url(logoTestHover.png)
 }
+.tophLogo:hover{
+    background-image: url(tophLogoHover3.gif);
+    background-repeat: no-repeat;
+    margin-top: 50px;                  
+    width: 250px;
+    vertical-align: middle;
+    float: left;
+}
+
 /*text*/
 
 a:link {
-text-decoration: none;
-color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
 
 }
 a:visited {
-text-decoration: none;
-color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
 
 }
 a:hover{
-color: #808080;
+    color: #808080;
 
 }
 a:active {
-text-decoration: none;
-color: #808080;
+    text-decoration: none;
+    color: #808080;
 
 }
 
 /*social media buttons/animations*/
 .buttonanimator{
+    /*opacity: 0.65;*/
     display: inline;
-    height: 23px;
+    height: 50px;
     width: 23px;
     border: 0px;
     padding:0px;
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 0px;    
+    margin-right: 0px; 
+	
 }
-.socialMediaNav{
-    display: inline; /*why does adding this float in interfere with animations?????*/
+.socialSliders{
+    height: 35px;
 }
+
 /* Carousel */
 
 .slider {
-  position: relative;
+  /*position: relative;*/
   width: 100%;
-  height: 525px;
-  border-bottom: 0px
+  height: 475px;
+  margin-top: 275px;
 }
 
 .slide {
@@ -102,10 +108,11 @@ color: #808080;
   background-size: cover;
   display: none;
   position: absolute;
-  top: 0;
+  top: 275px;
   left: 0;
   width: 100%;
   height: 100%;
+  clear: both;
 }
 
 .active-slide {
@@ -114,6 +121,7 @@ color: #808080;
 
 .slide-copy h1 {
   color: #ffffff;  
+  
   
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -148,107 +156,114 @@ color: #808080;
   margin-left: 0px;
 }
 .slide-1{
-background-image: url('#');
-background-size: cover;
-position: absolute;
-top: 0;
-left: 0;
-width: 70%;
-height: 100%;
-margin-left: 231px;
-margin-right: 231px;
-padding: 10px;
+    background-color: #000000;
+    background-size: cover;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 0px;
+
 }
 .slide-2{
-background-image: url('#');
-background-size: cover;
-position: absolute;
-top: 0;
-left: 0;
-width: 70%;
-height: 100%;
-margin-left: 231px;
-margin-right: 231px;
-padding: 10px;
+    background-image: url('#');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 0px;
 }
 .slide-3{
-background-image: url('#');
-background-size: cover;
-position: absolute;
-top: 0;
-left: 0;
-width: 70%;
-height: 100%;
-margin-left: 231px;
-margin-right: 231px;
-padding: 10px;
+    background-image: url('#');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 10px;
 }
 .slide-4{
-background-image: url('#');
-background-size: cover;
-position: absolute;
-top: 0;
-left: 0;
-width: 70%;
-height: 100%;
-margin-left: 231px;
-margin-right: 231px;
-padding: 10px;
+    background-image: url('#');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 10px;
 }
 .workTiles{
-/*margin-left: 231px;*/
-padding: 0px;
+    /*margin-left: 231px;*/
+    padding: 0px;
 }
 .workTiles li{
-display: inline;
-width: 220px;
-pading: 0px;
+    display: inline;
+    width: 220px;
+    padding: 0px;
 }
 .slide-copy img{
-	width: 200px;
-	margin-right: 25px;
-	margin-bottom: 25px;
-	padding: 0px;
-	border: 0px;
+    width: 200px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 0px;
+    border: 0px;
 }
 /* Slide feature */
-
+.copyright{
+    display: inline;
+}
 .slider-nav {
-  text-align: center;
-  margin-top: 0px;
-  clear: both;
-  background-color: transparent;
-  height: 35px;
+    position: absolute;
+    height: 25px;
+    text-align: center;
+    margin-top: 0px;
+    background-color: transparent;
+
 }
 
 .arrow-prev {
-  margin-right: 45px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 9px;
+    display: inline-block;
+    margin-right: 0px;
+    height: 23px;
+    float: left;
+
 }
 
 .arrow-next {
-  margin-left: 45px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 9px;
+    display: inline-block;
+    margin-left: 10px;
+    height: 23px;
+    float: right;
 }
 
 .slider-dots {
-  list-style: none;
-  display: inline-block;
-  padding-left: 0;
-  margin-bottom: 0;
+   
+    float: right;
+    vertical-align: middle;
+    list-style: none;
+    display: inline;
+    padding-left: 0px;
+    margin: 0px;
 }
-
 .slider-dots li {
-  color: #bbbcbc;
+  color: #ffffff;
   display: inline;
   font-size: 30px;
-  margin-right: 5px;
+  padding-right: 5px;
+  bottom: 3px;
 }
 
 .slider-dots li.active-dot {
   color: #363636;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
