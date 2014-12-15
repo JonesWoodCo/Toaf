@@ -1,9 +1,13 @@
 body {
-    background-image: url("testBackground3.jpg");
+    background-image: url("testBackground2.jpg");
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+<<<<<<< Updated upstream
     background-position: center;
+=======
+    background-position: bottom;
+>>>>>>> Stashed changes
     margin: 0px;
     overflow/*-x*/: hidden;
 }
