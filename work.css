@@ -1,8 +1,9 @@
 body {
     background-image: url("testBackground3.jpg");
     background-attachment: fixed;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: center;
     margin: 0px;
     overflow/*-x*/: hidden;
 }

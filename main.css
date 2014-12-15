@@ -42,12 +42,11 @@ navbar-nav {
 li {
     list-style: none;
 }
-.elLogo: hover{
-    background-image: url(logoTestHover.png)
-}
+
 .tophLogo:hover{
     background-image: url(tophLogoHover3.gif);
     background-repeat: no-repeat;
+    background-size: 250px 246px;
     margin-top: 50px;                  
     width: 250px;
     vertical-align: middle;
