@@ -1,10 +1,10 @@
 body {
-    background-image: url("testBackground2.jpg");
+    background-image: url("trpMeInWoods.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center left;
     margin: 0px;
-    overflow/*-x*/: hidden;
+    overflow-x: hidden;
 }
 /*navbar and logo*/
 navbar-nav {
@@ -46,9 +46,9 @@ li {
 .tophLogo:hover{
     background-image: url(logoTest3.gif);
     background-repeat: no-repeat;
-    background-size: 250px 246px;
+    background-size: 225px ;
     margin-top: 50px;                  
-    width: 250px;
+    width: 225px;
     vertical-align: middle;
     float: left;
 }
@@ -61,22 +61,26 @@ a:link {
 
 }
 a:visited {
+    font-family: 'Bree Serif', serif;
     text-decoration: none;
     color: #ffffff;
 
 }
 a:hover{
+    font-family: 'Bree Serif', serif;
     color: #ffffff;
     opacity: 0.45;
 
 }
 a:active {
+    font-family: 'Bree Serif', serif;
     text-decoration: none;
     color: #ffffff;
 
 
 }
 a img:hover{
+    font-family: 'Bree Serif', serif;
     opacity: 1.0;
 }
 
@@ -127,7 +131,7 @@ a img:hover{
   color: #ffffff;  
   
   
-  font-family: 'Oswald', sans-serif;
+font-family: 'Bree Serif', serif;
   font-weight: 400;
   
   font-size: 40px;
@@ -139,7 +143,7 @@ a img:hover{
 .slide-copy h2 {
   color: #ffffff;
   
-  font-family: 'Oswald', sans-serif;
+font-family: 'Bree Serif', serif;
   font-weight: 400;
   
   font-size: 40px;
@@ -151,7 +155,7 @@ a img:hover{
   color: #ffffff;
 
   
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Bree Serif', serif;
   font-size: 1.15em;
   line-height: 1.75em;
   
@@ -270,4 +274,5 @@ a img:hover{
 p{
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: 'Bree Serif', serif;
 }
