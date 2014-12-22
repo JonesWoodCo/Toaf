@@ -2,12 +2,12 @@ var main = function() {
 
   $('.socialSliders').mouseenter(function() {
        	   $(this).animate({
-           marginRight: '+=75px'
+           marginRight: '+=95px'
        });
   });
   $('.socialSliders').mouseleave(function() {
        $(this).animate({
-           marginRight: '-=75px'
+           marginRight: '-=95px'
        }); 
   });
   
