@@ -43,6 +43,9 @@ li {
     list-style: none;
 }
 
+.tophlogo{
+    z-index: inherit;
+}
 .tophLogo:hover{
     background-image: url(logoTest3.gif);
     background-repeat: no-repeat;
@@ -51,6 +54,7 @@ li {
     width: 225px;
     vertical-align: middle;
     float: left;
+    z-index: inherit;
 }
 
 /*text*/
