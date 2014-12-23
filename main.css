@@ -54,6 +54,7 @@ li {
     width: 225px;
     vertical-align: middle;
     float: left;
+  
     z-index: inherit;
 }
 
